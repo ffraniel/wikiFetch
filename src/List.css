@@ -1,0 +1,7 @@
+.search-result-item:nth-child(odd){
+    background-color:rgba(228, 241, 240, 0.308);
+}
+
+.search-result-item:nth-child(even){
+    background-color:rgba(217, 216, 218, 0.308);
+}

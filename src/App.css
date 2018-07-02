@@ -3,16 +3,33 @@
   --mono-font: 'Overpass Mono', monospace;
 }
 
+body{
+  background:rgb(232, 255, 226);
+}
+
 .App {
   text-align: center;
-  /* background:rgb(242, 243, 242); */
   font-family: var(--mono-font);
 }
 
 .App .title{
   font-family: var(--fancy-font);
   font-size:2rem;
+  color:rgba(0, 0, 0, 0.808);
 }
 
+input{
+  border-radius:6px;
+  background:rgb(252, 162, 162);
+  font-size:1.2rem;
+  border:none;
+  border-bottom:5px solid rgb(221, 124, 181);
+  color:white;
+  font-weight:900;
+  padding:8px;
+}
+input:focus{
+  border-bottom:5px solid rgb(221, 72, 159);
+}
 
 

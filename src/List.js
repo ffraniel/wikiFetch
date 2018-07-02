@@ -5,7 +5,7 @@ export default class List extends Component {
   render() {
     return (
       <div className="List">
-        {this.props.results.names.length === 0 && <p>Type something in to see some search results</p>}
+        {this.props.results.names.length === 0 && <p>Type something in to see some Wikipedia search results</p>}
         {this.props.results.names.length > 1 &&
           this.props.results.names.map((value, key) => {
             var link = this.props.results.links[key];
