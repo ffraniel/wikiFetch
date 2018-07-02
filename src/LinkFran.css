@@ -1,0 +1,16 @@
+.link-web{
+    color:rgb(187, 179, 153);
+    background-color:black;
+    border:solid black 2px;
+    border-radius: 5px;
+    font-family: var(--fancy);
+    padding:5px;
+    position:fixed;
+    bottom:0;
+    right:30px;
+}
+
+.link-web:hover{
+    border:solid white 2px;
+    border-radius: 5px;
+}

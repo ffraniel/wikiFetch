@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import List from './List.js';
+import LinkFran from './LinkFran.js';
 
 class App extends Component {
   constructor(props){
@@ -64,6 +65,7 @@ class App extends Component {
         <input type="text" value={this.state.input} onChange={this.handleChange} />
         {this.state.input && <p>You are searching for {this.state.input}</p>}
         <List results={this.state.results} />
+        <LinkFran />
       </div>
     );
   }
